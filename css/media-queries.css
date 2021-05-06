@@ -1,3 +1,24 @@
 /* ---------- 768px ------------- */
 @media screen and (min-width: 768px) {
+  .main-content__title {
+    font-size: 4rem;
+  }
+  .main-content__description {
+    font-size: 2rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form__label-input {
+    margin: 0px;
+    text-align: left;
+  }
+  .form__email-input {
+    max-width: 95%;
+  }
+  .form__btn-submit {
+    max-width: 175px;
+  }
 }
