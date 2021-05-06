@@ -13,3 +13,11 @@
     --input-error: hsl(354, 100%, 66%);
     --btn-bg-color: hsl(223, 87%, 63%);
 }
+.main-container{
+    border: 1px solid magenta;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0px;
+    min-height: 100vh;
+}
+/* --------- Main header ----------- */
