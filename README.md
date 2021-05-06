@@ -7,14 +7,13 @@
 
 ### Links
 
-- Live Site URL: [🚀🚀 Here 🚀🚀](#)
+- Live Site URL: [🚀🚀 Here 🚀🚀](https://ping-single-column-coming-soon-page-jose-angel-rey.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - Vanilla Javascript
 
