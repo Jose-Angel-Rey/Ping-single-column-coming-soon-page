@@ -116,5 +116,27 @@
   transform: scale(0.98);
 }
 /* --------- Main footer ----------- */
-
+.main-footer {
+  border: 1px solid magenta;
+  text-align: center;
+  width: 100%;
+}
+.social-media .fab {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  color: var(--btn-bg-color);
+  font-size: 2rem;
+  padding: 1rem;
+  width: 40px;
+  height: 40px;
+}
+.social-media .fab:nth-child(even) {
+  margin: 0px 1rem;
+}
+.main-footer__copy {
+  color: var(--second-text-color);
+  font-size: 1.2rem;
+  margin: 25px auto;
+}
 /* --------- Attribution footer ----------- */
