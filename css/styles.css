@@ -1,40 +1,57 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-:root{
-    font-family: 'Libre Franklin', sans-serif;
+:root {
+  font-family: "Libre Franklin", sans-serif;
 
-    --title-color: hsl(209, 33%, 12%);
-    --title-span-color: hsl(0, 0%, 59%);
+  --primary-text-color: hsl(209, 33%, 12%);
+  --second-text-color: hsl(0, 0%, 59%);
 
-    --input-color: hsl(223, 100%, 88%);
-    --input-error: hsl(354, 100%, 66%);
-    --btn-bg-color: hsl(223, 87%, 63%);
+  --input-color: hsl(223, 100%, 88%);
+  --input-error: hsl(354, 100%, 66%);
+  --btn-bg-color: hsl(223, 87%, 63%);
 }
-.main-container{
-    border: 1px solid magenta;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem 0px;
-    min-height: 100vh;
+.main-container {
+  border: 1px solid magenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0px;
+  min-height: 100vh;
 }
 /* --------- Main header ----------- */
-/* .main-header__logo{
-    margin: 0 auto;
-} */
-
-
+.main-header {
+  border: 1px solid olivedrab;
+  margin-bottom: 50px;
+}
+.main-header__logo {
+  max-width: 100px;
+}
 /* --------- Main content ----------- */
-
-
-.main-content__illustration{
-    width: 90%;
+.main-content {
+  border: 1px solid orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.main-content__title {
+  border: 1px solid magenta;
+  color: var(--second-text-color);
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+}
+.main-content__title span {
+  color: var(--primary-text-color);
+  font-weight: 700;
+}
+.main-content__illustration {
+  width: 90%;
 }
 /* --------- Main footer ----------- */
-
 
 /* --------- Attribution footer ----------- */
