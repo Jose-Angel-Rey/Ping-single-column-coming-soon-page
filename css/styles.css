@@ -14,7 +14,7 @@
   --btn-bg-color: hsl(223, 87%, 63%);
 }
 .main-container {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +24,7 @@
 }
 /* --------- Main header ----------- */
 .main-header {
-  /* border: 1px solid olivedrab; */
+  border: 1px solid olivedrab;
   margin-bottom: 50px;
 }
 .main-header__logo {
@@ -32,7 +32,7 @@
 }
 /* --------- Main content ----------- */
 .main-content {
-  /* border: 1px solid orangered; */
+  border: 1px solid orangered;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +40,7 @@
   width: 85%;
 }
 .main-content__title {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   color: var(--second-text-color);
   font-size: 2.2rem;
   font-weight: 300;
@@ -59,12 +59,13 @@
 }
 /* --------- Main content - Form ----- */
 .form {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   margin-bottom: 75px;
+  text-align: center;
   width: 100%;
 }
 .form__label-input {
-  /* border: 1px solid green; */
+  border: 1px solid green;
   display: block;
   margin-bottom: 15px;
   text-align: center;
@@ -76,6 +77,7 @@
   padding: 1.5rem 2rem;
   transition: all 0.5s ease;
   width: 100%;
+  max-width: 350px;
 }
 .form__email-input::placeholder {
   color: #ccc;
@@ -106,6 +108,7 @@
   padding: 1.5rem;
   transition: all 0.5s;
   width: 100%;
+  max-width: 350px;
 }
 .form__btn-submit:hover {
   background-color: hsl(223, 97%, 70%);
@@ -116,7 +119,7 @@
 }
 /* --------- Main footer ----------- */
 .main-footer {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   text-align: center;
   width: 100%;
 }
@@ -140,15 +143,15 @@
 }
 /* --------- Attribution footer ----------- */
 .attribution {
-  /* border: 1px solid orangered; */
+  border: 1px solid orangered;
   color: var(--second-text-color);
   font-size: 1.3rem;
   line-height: 2rem;
   padding: 2rem;
   text-align: center;
 }
-.attribution a{
-    color: var(--btn-bg-color);
-    font-weight: 600;
-    text-decoration: none;
+.attribution a {
+  color: var(--btn-bg-color);
+  font-weight: 600;
+  text-decoration: none;
 }
