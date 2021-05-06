@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="author" content="Jose Angel Rey">
+  <meta name="author" content="Jose Angel Rey">
   <meta name="description" content="Frontend Mentor challengue - Ping coming soon page">
   <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/media-queries.css">
 
-  <title>Frontend Mentor | Ping coming soon page</title>
+  <title>Ping coming soon page | Frontend Mentor</title>
 
 </head>
+
 <body>
 
-  We are launching soon!
+  <div class="main-container">
 
-  Subscribe and get notified
+    <header class="header">
+      <img src="./images/logo.svg" alt="" class="header__logo">
+    </header>
 
-  Notify Me
+    <!-- Main  content -->
+    <main class="main-content">
+      <h1 class="main-content__title">We are launching soon!</h1>
+      <p class="main-content__description">Subscribe and get notified</p>
 
-  &copy; Copyright Ping. All rights reserved.
+      <!-- Form -->
+      <form action="/" id="form">
+        <label for="email" class="form__label-input">
+          <input type="email" name="email" id="email" class="form__email-input">
+        </label>
+        <button type="submit">Notify Me</button>
+      </form>
 
-  <!-- Attribution footer -->
-  <footer class="attribution">
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"rel="noreferrer noopener">Frontend Mentor</a>.</p>
-    <p>Coded by <a href="https://github.com/Jose-Angel-Rey" target="_blank" rel="noreferrer noopener">Jose Angel Rey</a></p>
-  </footer>
+      <img src="./images/illustration-dashboard.png" alt="Illustration dashboard" class="main-content__illustration">
+    </main>
+
+    <!-- Main footer -->
+    <footer class="main-footer">
+      <div class="social-media">
+
+      </div>
+      <p class="main-footer__copy">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+
+
+    <!-- Attribution footer -->
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          rel="noreferrer noopener">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://github.com/Jose-Angel-Rey" target="_blank" rel="noreferrer noopener">Jose Angel
+          Rey</a></p>
+    </div>
+
+  </div>
+
+
 </body>
+
 </html>
