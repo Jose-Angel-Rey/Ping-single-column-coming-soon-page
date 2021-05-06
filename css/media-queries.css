@@ -3,16 +3,23 @@
   .main-container {
     padding: 0px;
   }
+  .main-header {
+    margin-bottom: 20px;
+  }
+  .main-content {
+    margin-bottom: 20px;
+  }
   .main-content__title {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
   .main-content__description {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .form {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 35px;
   }
   .form__label-input {
     margin: 0px;
@@ -27,6 +34,6 @@
   .attribution {
     position: absolute;
     bottom: 50px;
-    left: 0;
+    left: 30px;
   }
 }
