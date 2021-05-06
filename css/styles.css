@@ -17,7 +17,12 @@
     border: 1px solid magenta;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5rem 0px;
     min-height: 100vh;
 }
 /* --------- Main header ----------- */
+/* .main-header__logo{
+    margin: 0 auto;
+} */
