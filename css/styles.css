@@ -5,7 +5,7 @@
 }
 :root {
   font-family: "Libre Franklin", sans-serif;
-
+  font-size: 62.5%;
   --primary-text-color: hsl(209, 33%, 12%);
   --second-text-color: hsl(0, 0%, 59%);
 
@@ -41,7 +41,7 @@
 .main-content__title {
   border: 1px solid magenta;
   color: var(--second-text-color);
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 300;
   text-align: center;
 }
@@ -49,8 +49,56 @@
   color: var(--primary-text-color);
   font-weight: 700;
 }
+.main-content__description {
+  font-size: 1.5rem;
+  margin: 20px auto 30px;
+}
 .main-content__illustration {
-  width: 90%;
+  width: 100%;
+}
+/* --------- Main content - Form ----- */
+.form {
+  border: 1px solid magenta;
+  width: 100%;
+}
+.form__label-input {
+  border: 1px solid green;
+  display: block;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+.form__email-input {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  padding: 1.5rem 2rem;
+  transition: all 0.5s ease;
+  width: 100%;
+}
+.form__email-input::placeholder {
+  color: #ccc;
+}
+.form__email-input:focus {
+  border-color: var(--input-color);
+  outline: none;
+}
+.input-error {
+  color: var(--input-error);
+  font-size: 1.2rem;
+  margin: 10px auto;
+  display: none;
+  transform: translateY(-200%);
+  transition: all 0.5s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.form__btn-submit {
+  background-color: var(--btn-bg-color);
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  padding: 1.5rem;
+  width: 100%;
 }
 /* --------- Main footer ----------- */
 
