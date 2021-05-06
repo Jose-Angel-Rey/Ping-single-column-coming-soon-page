@@ -39,13 +39,14 @@
       <p class="main-content__description">Subscribe and get notified</p>
 
       <!-- Form -->
-      <form class="form">
+      <form class="form" id="form" action="#" method="GET">
         <label for="email" class="form__label-input">
           <input type="text" name="email" id="email" class="form__email-input" placeholder="Your email adress..."
             autocomplete="off">
           <div class="input-error">Please provide a valid email adress</div>
         </label>
-        <button type="submit" class="form__btn-submit">Notify Me</button>
+        <!-- <button type="submit" class="form__btn-submit"></button> -->
+        <input type="submit" value="Notify Me" class="form__btn-submit">
       </form>
 
       <img src="./images/illustration-dashboard.png" alt="Illustration dashboard" class="main-content__illustration">
@@ -72,7 +73,7 @@
 
   </div>
 
-
+<script src="./js/app.js"></script>
 </body>
 
 </html>
