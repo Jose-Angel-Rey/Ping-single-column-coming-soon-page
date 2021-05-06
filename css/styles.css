@@ -4,5 +4,12 @@
     box-sizing: border-box;
 }
 :root{
-    
+    font-family: 'Libre Franklin', sans-serif;
+
+    --title-color: hsl(209, 33%, 12%);
+    --title-span-color: hsl(0, 0%, 59%);
+
+    --input-color: hsl(223, 100%, 88%);
+    --input-error: hsl(354, 100%, 66%);
+    --btn-bg-color: hsl(223, 87%, 63%);
 }
