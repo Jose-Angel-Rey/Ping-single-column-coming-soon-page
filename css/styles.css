@@ -28,7 +28,7 @@
   margin-bottom: 50px;
 }
 .main-header__logo {
-  max-width: 100px;
+  max-width: 80px;
 }
 /* --------- Main content ----------- */
 .main-content {
@@ -36,7 +36,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
   width: 90%;
+  display: none;
 }
 .main-content__title {
   border: 1px solid magenta;
@@ -58,13 +60,14 @@
 }
 /* --------- Main content - Form ----- */
 .form {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
+  margin-bottom: 75px;
   width: 100%;
 }
 .form__label-input {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-align: center;
   width: 100%;
 }
@@ -87,18 +90,30 @@
   font-size: 1.2rem;
   margin: 10px auto;
   display: none;
-  transform: translateY(-200%);
   transition: all 0.5s ease;
   user-select: none;
   -webkit-user-select: none;
+}
+.form__email-input:focus + .input-error {
+  display: block;
 }
 .form__btn-submit {
   background-color: var(--btn-bg-color);
   border-radius: 25px;
   border: none;
+  box-shadow: 2px 5px 8px var(--input-color);
   color: #fff;
+  cursor: pointer;
   padding: 1.5rem;
+  transition: all 0.5s;
   width: 100%;
+}
+.form__btn-submit:hover {
+  background-color: hsl(223, 97%, 70%);
+}
+.form__btn-submit:active {
+  background-color: hsl(223, 66%, 45%);
+  transform: scale(0.98);
 }
 /* --------- Main footer ----------- */
 
